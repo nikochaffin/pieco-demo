@@ -36,8 +36,8 @@ gulp.task('serve', ['watch'], function() {
     online: true,
   });
 
-  gulp.watch('./app/**/*.js').on('change', browserSync.reload);
-  gulp.watch('./*.html').on('change', browserSync.reload);
+  gulp.watch('app/**/*.js').on('change', browserSync.reload);
+  gulp.watch('**/*.html').on('change', browserSync.reload);
 });
 
 // gulp.task('serve-gh-pages', ['watch'], function() {

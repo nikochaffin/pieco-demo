@@ -7,3 +7,9 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+input {
+  border: 1px solid #333; }
+
+form.ng-submitted input.ng-invalid {
+  border: 1px solid red; }

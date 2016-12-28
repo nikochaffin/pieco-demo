@@ -4,6 +4,6 @@
     .controller('mainCtrl', mainCtrl);
 
   function mainCtrl() {
-    console.log("Main PieCo Demo controller loaded.");
+    // console.log("Main PieCo Demo controller loaded.");
   }
 }());

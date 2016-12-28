@@ -1,1 +1,16 @@
-<h1>PieCo Demo Site</h1>
+<form name="signupForm" af-name="" ng-submit="vc.onSignupFormSubmit(vc.signup, signupForm)" novalidate>
+  <label for="client_name">First Name:</label>
+  <input id="client_name" type="string" name="client_name" ng-model="vc.signup.client_name" required><br>
+
+  <label for="client_lname">Last Name:</label>
+  <input id="client_lname" type="string" name="client_lname" ng-model="vc.signup.client_lname" required><br>
+
+  <label for="client_email">Email:</label>
+  <input id="client_email" type="email" name="client_email" ng-model="vc.signup.client_email" required><br>
+
+  <div ng-if="vc.response && !vc.response.success">
+    Error: {{ vc.response.message }}
+  </div>
+
+  <button type="submit">Subscribe</button>
+</form>

@@ -9,6 +9,9 @@
 </head>
 <body ng-controller="mainCtrl">
 
+  <h1>PieCo Demo Site</h1>
+  <a ui-sref="home">Home</a>
+
   <div class="main-content">
     <ui-view></ui-view>
   </div>
@@ -17,6 +20,10 @@
   <script type="text/javascript" src="vendor/angular-ui-router.min.js"></script>
 
   <script type="text/javascript" src="app/app.js"></script>
+
+  <script type="text/javascript" src="app/services/automate-forms.factory.js"></script>
+  <script type="text/javascript" src="app/directives/automate-form.directive.js"></script>
+
   <script type="text/javascript" src="app/main.controller.js"></script>
   <script type="text/javascript" src="app/home/home.controller.js"></script>
 </body>

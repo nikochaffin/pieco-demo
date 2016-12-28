@@ -1,1 +1,1 @@
-*{margin:0;padding:0;box-sizing:border-box}body{font-family:Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}input{border:1px solid #333}form.ng-submitted input.ng-invalid{border:1px solid red}

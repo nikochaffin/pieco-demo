@@ -14,7 +14,7 @@
         name: 'home',
         url: '/',
         templateUrl: 'app/home/home.view.html',
-        controller: 'homeCtrl'
+        controller: 'homeCtrl as vc'
       }
     ]
 
